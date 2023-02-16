@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Santiago_Z Nicolas_Sanchez Juan_Robledo">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wiki</title>
+    <link rel="icon" href="img/icon.png">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/content.css">
+    <link rel="stylesheet" href="styles/foot.css">
+    <link rel="stylesheet" href="styles/contact.css">
+
+    <script src="js/comment.js"></script>
+
+</head>
+
+<body>
+    <header>
+        <nav class="main-nav">
+            <a href="index.html" class="logo">LogoPrueba</a>
+            <ul class="navlinks">
+                <li> <a href="index.html">Presentación</a></li>
+                <li> <a href="requirements.html">Requerimientos</a></li>
+                <li> <a href="description.html">Descripción</a></li>
+                <li> <a href="architecture.html">Arquitectura</a></li>
+                <li> <a href="development.html">Desarrollo</a></li>
+                <li> <a href="tests.html">Pruebas</a></li>
+                <li> <a href="deployment.html">Despliegue</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div id="root-wrapper">
+        <div id="root">
+            <div class="contact">
+                <h2 class="content-title">Comentarios</h2>
+
+                <form id="comment-form" action="">
+                    <input type="text" class="comment-input" name="name" id="name-textbox" placeholder="Nombre">
+                    <input type="text" class="comment-input" name="email" id="email-textbox" placeholder="Correo">
+                    <textarea name="text" class="comment-input" id="comment-textarea" cols="30" rows="10"
+                        placeholder="Comentarios...."></textarea>
+                    <label id="label-term"><input id="term-btn" name="term-btn" type="checkbox">Aceptar términos y condiciones</label>
+                    <input type="submit" value="Enviar" id="send-btn" onclick="checkForm()">
+                    
+
+                </form>
+            </div>
+        </div>
+        <footer>
+            <div id="footer-wrapper">
+                <div class="socials-wrapper">
+                    <img src="" alt="">
+                    <a href="https://www.instagram.com"><img class="social-icon" src="img/instagram.png"
+                            alt="Instagram"></a>
+                    <a href="https://www.twitter.com"><img class="social-icon" src="img/twitter.png" alt="Twitter"></a>
+                    <a href="https://github.com/Zayver/TestRender"><img class="social-icon" src="img/github.png" alt="Github"></a>
+
+                </div>
+
+                <div class="about-wrapper">
+                    <a href="#" class="about-link"><i class="about-text">Contacto</i></a>
+
+                    <i class="about-text">Alojado en render.com</i>
+                    <i class="about-text">🄯Yo 2023</i>
+                </div>
+
+            </div>
+
+        </footer>
+    </div>
+
+
+
+
+</body>
+
+</html>

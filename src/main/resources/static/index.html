@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="styles/content.css">
     <link rel="stylesheet" href="styles/foot.css">
     <script src="js/panel.js"></script>
+    <script src="js/active.js"></script>
 
 </head>
 
@@ -20,13 +21,13 @@
         <nav class="main-nav">
             <a href="index.html" class="logo">LogoPrueba</a>
             <ul class="navlinks">
-                <li> <a href="#" class="active">Presentación</a></li>
-                <li> <a href="#">Requerimientos</a></li>
-                <li> <a href="#">Descripción</a></li>
-                <li> <a href="#">Arquitectura</a></li>
-                <li> <a href="#">Desarrollo</a></li>
-                <li> <a href="#">Pruebas</a></li>
-                <li> <a href="#">Despliegue</a></li>
+                <li> <a href="index.html">Presentación</a></li>
+                <li> <a href="requirements.html">Requerimientos</a></li>
+                <li> <a href="description.html">Descripción</a></li>
+                <li> <a href="architecture.html">Arquitectura</a></li>
+                <li> <a href="development.html">Desarrollo</a></li>
+                <li> <a href="tests.html">Pruebas</a></li>
+                <li> <a href="deployment.html">Despliegue</a></li>
             </ul>
         </nav>
     </header>
@@ -44,32 +45,56 @@
             </div>
             <div class="content">
                 <h1 class="content-title">Presentación del equipo</h1>
-                <h2 class="content-subtitle" id="nombre_del_equipo">Nombre del equipo</h2>
-                <p>
-                    El nombre del equipo la verdad no tengo la más minima idea solo espero que sea algo sencillo y ya
-                </p>
-                <h2 class="content-subtitle" id="integrantes">Integrantes</h2>
+                <h2 class="content-subtitle">Nombre del equipo</h2>
+                <h2 class="content-subtitle2"></h2>
+                <h2 class="content-subtitle">Integrantes</h2>
 
-                <h2 class="content-subtitle2">Yo</h2>
+                <h2 class="content-subtitle2">Santiago Z (Líder técnico)</h2>
                 <p>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem quo soluta dolore, iusto eius
-                    similique voluptas aliquam quia, modi temporibus, quidem facere reiciendis neque. Cum eos facilis
-                    accusamus deleniti. Accusantium!
+                    Estudiante de la Pontifica Universidad Javeriana. Con conocimientos en la administración de
+                    servidores GNU/Linux o BSD.
+                    Conocimientos en bases de datos estructuradas (Oracle) o no estructuradas (MongoDB).
+                    Programación a bajo nivel en lenguajes como C y assembler.
+                    Programación a alto nivel con lenguajes como C++, Python, Java y JavaScript.
+                    Desarrollo móvil con especialidad en Android con kotlin de manera tradicional o usando frameworks
+                    como
+                    Flutter (con Dart) o JetPack Compose.
+                    Certificado en desarrollo Python de Udemy con fuerte énfasis en uso de Django para web services.
+
+                </p>
+                <a href="https://github.com/Zayver" target="_blank"><img class="social-icon" src="img/githubw.png"
+                        alt="Github"></a>
+
+                <h2 class="content-subtitle2">Nicolás Sanchez (Líder planeación)</h2>
+                <p>
+                    Estudiante de séptimo semeste, que posee concimientos de lenguajes de programación tales como java,
+                    c y python.
+                    ademas de monitor en la materia de ADS y mentor de la facultad de ingenieria
                 </p>
 
-                <h2 class="content-subtitle2">Nicolás</h2>
+                <h2 id="test" class="content-subtitle2">Juan Robledo (Líder de pruebas)</h2>
                 <p>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem quo soluta dolore, iusto eius
-                    similique voluptas aliquam quia, modi temporibus, quidem facere reiciendis neque. Cum eos facilis
-                    accusamus deleniti. Accusantium!
+                    Soy un estudiante de la programación y estoy interesado en aprender y desarrollar habilidades en
+                    Python, C++, Java, SQL y Django. Soy un estudiante de ingeniería de sistemas con sólidos
+                    conocimientos teóricos en programación y bases de datos. Estoy ansioso por aplicar mis habilidades y
+                    aprender a través de la experiencia práctica.
+                </p>
+                <p>
+                    En mi formación académica, he adquirido habilidades en la creación de aplicaciones y programas
+                    utilizando lenguajes como Python, C++ y Java. También tengo experiencia en la manipulación de datos
+                    mediante SQL y el desarrollo de aplicaciones web con Django.
+                </p>
+                <p>
+                    Soy una persona autodirigida y me gusta asumir nuevos desafíos. Me esfuerzo por aprender
+                    constantemente y mantenerme actualizado con las últimas tecnologías y tendencias en el desarrollo de
+                    software. Estoy dispuesto a trabajar duro y colaborar con otros desarrolladores para lograr
+                    objetivos comunes.
+                </p>
+                <p>
+                    Estoy buscando una oportunidad para crecer en mi carrera como desarrollador de software y estoy
+                    emocionado/a de contribuir en un entorno de trabajo dinámico y desafiante.
                 </p>
 
-                <h2 id="test" class="content-subtitle2">El otro man</h2>
-                <p>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem quo soluta dolore, iusto eius
-                    similique voluptas aliquam quia, modi temporibus, quidem facere reiciendis neque. Cum eos facilis
-                    accusamus deleniti. Accusantium!
-                </p>
             </div>
         </div>
         <footer>
@@ -79,12 +104,12 @@
                     <a href="https://www.instagram.com"><img class="social-icon" src="img/instagram.png"
                             alt="Instagram"></a>
                     <a href="https://www.twitter.com"><img class="social-icon" src="img/twitter.png" alt="Twitter"></a>
-                    <a href="https://www.github.com"><img class="social-icon" src="img/github.png" alt="Github"></a>
+                    <a href="https://github.com/Zayver/TestRender"><img class="social-icon" src="img/github.png" alt="Github"></a>
 
                 </div>
 
                 <div class="about-wrapper">
-                    <a href="#" class="about-link"><i class="about-text">Contacto</i></a>
+                    <a href="contact.html" class="about-link"><i class="about-text">Contacto</i></a>
 
                     <i class="about-text">Alojado en render.com</i>
                     <i class="about-text">🄯Yo 2023</i>
